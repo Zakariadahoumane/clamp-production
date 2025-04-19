@@ -1,0 +1,107 @@
+.banner-section .banner-left .mb-0,.banner-section .banner-left h1,.about-section .experince-sec p,.about-section .about-left .wp-block-buttons,
+.about-section .about-left h2{
+    margin: 0 !important;
+}
+.banner-section .banner-left p{
+    margin: 10px 0;
+}
+.banner-section .banner-left{
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    right: 55%;
+    padding: 25px;
+    bottom: auto;
+    text-align: left;
+    background: #fff;
+    border-top-left-radius: 50px;
+    position: absolute;
+}
+.banner-section .banner-left .list-text:before{
+    content: "\f00c";
+    font-family: 'Font Awesome 5 Free';
+    position: relative;
+    margin-right: 10px;
+    bottom: auto;
+    color: #FF5E14;
+    font-weight: 900;
+    transform: translateX(-50%);
+}
+.banner-section .banner-left .wp-block-button__link:before{
+    color: #FF5E14;
+}
+.about-section .about-left .wp-block-button__link:before{
+    color:#0e2b5c;
+}
+.banner-section .banner-left .read-more .wp-block-button__link:hover:before{
+    color: #0E2B5C;
+}
+.about-section .about-left .about-btn .wp-block-button__link:hover:before{
+    color: #FF5E14;
+}
+.about-section .about-left .wp-block-button__link:hover{
+    background:#FF5E14 !important;
+}
+.banner-section .banner-left .wp-block-button__link:hover{
+    background:#0E2B5C !important;
+}
+.banner-section .banner-left .wp-block-button__link:before,.about-section .about-left .wp-block-button__link:before{
+    content: "\f064";
+    font-family: 'Font Awesome 5 Free';
+    position: relative;
+    margin-right: 10px;
+    bottom: auto;    
+    font-weight: 900;
+    transform: translateX(-50%);
+    background: #fff;
+    padding: 3px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+.banner-section .banner-left a.wp-block-button__link.has-background.wp-element-button,.about-section .about-left a.wp-block-button__link.has-background.wp-element-button{
+    text-decoration: none !important;
+}
+.about-section{
+    max-width: 1200px;
+}
+.about-section .about-img:before{
+    content: '';
+    width: 60px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 90%;
+    background: #FF5E14;
+    opacity: 0.5;
+    z-index: 1;
+}
+.about-section .about-right p{
+    position: absolute;
+    bottom: 30px;
+    left: 5%;
+    background: #FF5E14;
+    padding: 15px;
+    color: #fff;
+    font-size: 17px;
+    width: 140px;
+    font-weight: 500;
+    border: 10px solid #fff;
+}
+.about-section .experince-sec{
+    margin: 0;
+    padding: 0;
+}
+.about-section .experince-sec img{
+    border: 3px solid #FF5E14;
+/*    border-radius: 30px;*/
+}
+.about-section .about-heading:before{
+    content: '';
+    width: 35px;
+    height: 35px;
+    background: #F1F1F1;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}

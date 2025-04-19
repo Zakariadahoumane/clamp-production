@@ -1,0 +1,185 @@
+.banner-section .banner-left{
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15%;
+    right: 55%;
+    padding: 25px;
+    bottom: auto;
+    text-align: left;
+    background: #fff;
+    border-top-left-radius: 50px;
+    position: absolute;
+}
+.banner-section .banner-left .list-text:before{
+    content: "\f00c";
+    font-family: 'Font Awesome 5 Free';
+    position: relative;
+    margin-right: 10px;
+    bottom: auto;
+    color: #FF5E14;
+    font-weight: 900;
+    transform: translateX(-50%);
+}
+.banner-section .banner-left a:before{
+    color: #FF5E14;
+}
+.about-section .about-left a:before{
+    color:#0e2b5c;
+}
+.banner-section .banner-left .read-more a:hover:before{
+    color: #0E2B5C;
+}
+.about-section .about-left .about-btn a:hover:before{
+    color: #FF5E14;
+}
+.about-section .about-left a:hover{
+    background:#FF5E14 !important;
+}
+.banner-section .banner-left a:before,.about-section .about-left a:before{
+    content: "\f064";
+    font-family: 'Font Awesome 5 Free';
+    position: relative;
+    margin-right: 10px;
+    bottom: auto;    
+    font-weight: 900;
+    transform: translateX(-50%);
+    background: #fff;
+    padding: 3px;
+    border-radius: 50%;
+    font-size: 10px;
+}
+.banner-section .banner-left a.wp-block-button__link.has-background.wp-element-button,.about-section .about-left a.wp-block-button__link.has-background.wp-element-button{
+    text-decoration: none !important;
+}
+.about-section .about-img:before{
+    content: '';
+    width: 60px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 75%;
+    background: #FF5E14;
+    opacity: 0.5;
+}
+.about-section .about-right p{
+    position: absolute;
+    bottom: 0px;
+    left: 55%;
+    background: #FF5E14;
+    padding: 15px;
+    color: #fff;
+    font-size: 17px;
+    width: 140px;
+    font-weight: 500;
+    border: 10px solid #fff;
+}
+.about-section .experince-sec{
+    margin: 0;
+    padding: 0;
+}
+.about-section .about-heading:before{
+    content: '';
+    width: 35px;
+    height: 35px;
+    background: #F1F1F1;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media screen and (max-width: 720px){
+    .about-section .slider-btn{
+        gap: 0;
+    }
+}
+@media screen and (max-width: 767px){
+    .banner-section{
+        min-height: 300px !important;
+    }
+    .banner-section p{
+        display: none;
+    }
+    .banner-section .banner-left h1{
+        font-size: 20px !important;
+    }
+    .banner-section .banner-left{
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        align-items: center;
+        position: relative;
+        transform: none;
+        text-align: center;
+    }
+    .banner-section .banner-left .wp-block-buttons{
+        justify-content: center;
+    }
+    .about-section .about-right img{
+        width: 100% !important;
+        height: auto !important;
+        padding: 15px;
+    }
+    .about-section .about-right p{
+        left: 0;
+    }
+    .about-section .about-right p,.about-section .about-img:before{
+        bottom: 15px;
+    }
+    .about-section .about-img:before{
+        left: 80%;
+    }
+}
+@media screen and (min-width: 720px) and (max-width:781px){
+    .about-section .slider-btn{
+        flex-wrap: nowrap !important;
+    }
+}
+@media screen and (max-width: 991px){
+    .about-section{
+        flex-wrap: wrap !important;
+    }
+    .about-section .wp-block-column{
+        flex-basis: 100% !important;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:1300px){
+    .banner-section{
+        min-height: 500px !important;
+    }
+    .banner-section .banner-left h1{
+        font-size: 32px !important;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:991px){
+    .banner-section .banner-left{
+        right: 30%;
+    }
+    .banner-section .banner-left h1{
+        font-size: 32px !important;
+    }
+    .about-section .slider-btn{
+        width: 70%;
+    }
+    .about-section .about-right p{
+        left: 15%;
+    }
+}
+@media screen and (min-width: 992px) and (max-width:1300px){    
+    .banner-section .banner-left{
+        right: 40%;
+    }
+    .about-section .about-left a.wp-block-button__link.has-background.wp-element-button{
+        padding: 12px 16px;
+    }
+    .about-section .about-right p{
+        left: 48%;
+    }
+    .about-section .about-img:before{
+        left: 85%;
+    }  
+}
+@media screen and (min-width: 768px) and (max-width:1500px){
+    .banner-section .banner-left{
+        left: 5%;
+    }
+}

@@ -1,0 +1,1 @@
+[05-Nov-2024 07:27:22 UTC] Erreur d’événement de replanification de tâche pour le crochet litespeed_task_imgoptm_pull. Code d’erreur : could_not_set. Message d’erreur : La liste des évènements planifiés n’a pas pu être sauvegardée.. Données : {"schedule":"litespeed_filter","args":[],"interval":60}
